@@ -2,6 +2,13 @@
 A database is a place where data (information) is stored in an organized way so it can be easily found, used, and updated.
 A database is like a digital cupboard 📂 where information is kept neatly so you can search and update it quickly.
 
+## What is Data?
+Data means any piece of information that can be stored, processed, or used.
+- It can be numbers, text, images, sounds, or facts collected for reference or analysis.
+- A teacher writing student marks in a notebook → data.
+
+When marks are analyzed to find class topper → becomes information.
+
 ## What is SQL?
 SQL (Structured Query Language) is a language used to communicate with databases.
 It helps us to store, search, update, and manage data inside a database.
@@ -17,11 +24,11 @@ It is a type of database software that stores data in the form of tables (rows a
 - It is easy to read because it uses English-like commands.
  <img width="293" height="226" alt="image" src="https://github.com/user-attachments/assets/a5588d85-bcb8-48e2-8b35-05d00b253424" />
 
-  1. Open-Source RDBMS (Free to use and modify)
+ #### 1. Open-Source RDBMS (Free to use and modify)
      MySQL – Widely used for web apps (WordPress, PHP, Node.js projects).
      PostgreSQL – Advanced, supports complex queries & JSON.
      MariaDB – Community-driven version of MySQL.
-  2.Commercial RDBMS (Paid (licensed), used by enterprises for large-scale secure systems)
+####  2.Commercial RDBMS (Paid (licensed), used by enterprises for large-scale secure systems)
     Oracle Database – Strong in big companies, banking, finance.
     Microsoft SQL Server – Common in corporate environments (Windows-based).
     IBM Db2 – Used in finance, healthcare, enterprise systems.
