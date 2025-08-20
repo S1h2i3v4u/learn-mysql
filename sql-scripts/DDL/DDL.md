@@ -5,6 +5,7 @@ They do not deal with the data inside the tables (that’s DML’s job).
 
 ## CREATE 
 Used to create a database or table.
+
 <img width="1272" height="727" alt="image" src="https://github.com/user-attachments/assets/853a6092-66c1-454c-9a2d-9cbaea1863a8" />
 
 ## ALTER 
@@ -20,6 +21,7 @@ Used to delete all rows from a table but keep the table structure.
 ## DROP
 Used to delete a database or table permanently.
 ⚠️ Data + structure both are removed.
+
 <img width="1159" height="741" alt="image" src="https://github.com/user-attachments/assets/cde8bd00-bb68-4254-9068-715e955240e7" />
 
 
