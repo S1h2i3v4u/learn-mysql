@@ -4,10 +4,9 @@ A database is like a digital cupboard 📂 where information is kept neatly so y
 
 ## What is Data?
 Data means any piece of information that can be stored, processed, or used.
-- It can be numbers, text, images, sounds, or facts collected for reference or analysis.
+It can be numbers, text, images, sounds, or facts collected for reference or analysis.
 - A teacher writing student marks in a notebook → data.
-
-When marks are analyzed to find class topper → becomes information.
+- When marks are analyzed to find class topper → becomes information.
 
 ## What is SQL?
 SQL (Structured Query Language) is a language used to communicate with databases.
