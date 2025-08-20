@@ -1,5 +1,5 @@
 - Database Design
-- 
+  
 ## Normalization (1NF, 2NF, 3NF, BCNF)
   <img width="1243" height="566" alt="image" src="https://github.com/user-attachments/assets/deb63fa5-4d6f-4a31-8482-b42926302779" />
 
