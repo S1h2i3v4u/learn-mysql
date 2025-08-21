@@ -17,8 +17,9 @@ used with aggregation:
 - ORDER BY → sorts the result
 - MAX() → largest value
 
+---------------------------------------------------------------------------------------------------------------------------------------------------
 
-### SUM() → Adds up numeric values
+### 1.SUM() → Adds up numeric values
 <img width="664" height="352" alt="image" src="https://github.com/user-attachments/assets/d1b2936e-eaef-4319-a988-f9d8e556796c" />
 
 ### COUNT() → Counts the number of rows
