@@ -15,4 +15,4 @@
 ## 3. DELETE (Remove data)
 <img width="941" height="338" alt="image" src="https://github.com/user-attachments/assets/6290b933-94bc-4a80-a97b-22a123800e10" />
 
-## 4. SELECT (View/retrieve data)
+
