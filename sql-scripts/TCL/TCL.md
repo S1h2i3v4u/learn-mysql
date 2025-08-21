@@ -2,10 +2,10 @@
 - TCL commands in SQL are used to manage transactions in a database.
 - They help in saving, undoing, or temporarily pausing changes made by DML commands (INSERT, UPDATE, DELETE).
 
-- COMMIT (Save permanently)
+### COMMIT (Save permanently)
 
-- ROLLBACK (Undo changes)
+### ROLLBACK (Undo changes)
 
-- SAVEPOINT (Mark a temporary point in a transaction)
+### SAVEPOINT (Mark a temporary point in a transaction)
 
-- SET TRANSACTION
+### SET TRANSACTION
