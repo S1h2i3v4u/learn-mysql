@@ -2,20 +2,20 @@
 Aggregate functions in SQL perform calculations on a group of rows and return a single value as output.
 They are mostly used with GROUP BY to summarize data.
 
-COUNT() → counts rows
-SUM() → adds values
-AVG() → finds average
-MIN() → smallest value
+- COUNT() → counts rows
+- SUM() → adds values
+- AVG() → finds average
+- MIN() → smallest value
 
 ## Clauses
 Clauses are conditions/rules that control how queries run.
 used with aggregation:
 
-WHERE → filters rows before aggregation
-GROUP BY → groups rows for aggregation
-HAVING → filters groups after aggregation
-ORDER BY → sorts the result
-MAX() → largest value
+- WHERE → filters rows before aggregation
+- GROUP BY → groups rows for aggregation
+- HAVING → filters groups after aggregation
+- ORDER BY → sorts the result
+- MAX() → largest value
 
 
 ### SUM() → Adds up numeric values
