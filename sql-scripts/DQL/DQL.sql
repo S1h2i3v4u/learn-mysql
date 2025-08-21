@@ -11,3 +11,7 @@ WHERE salary > 20000;
 SELECT emp_id,name,salary FROM employee
 ORDER BY salary DESC , emp_id ASC;
 
+SELECT department, SUM(salary) AS total_salary
+FROM employee
+GROUP BY department
+ORDER BY department;
