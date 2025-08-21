@@ -10,4 +10,7 @@ Used to query (fetch/view) data from a table.
 
 <img width="794" height="363" alt="image" src="https://github.com/user-attachments/assets/bf4f9569-618a-4583-9b6a-1e48ee0ba82b" />
 
+<img width="685" height="352" alt="image" src="https://github.com/user-attachments/assets/7caee059-f9e4-431d-a5a0-817603f7711f" />
+
+
 
