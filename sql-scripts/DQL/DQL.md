@@ -1,5 +1,5 @@
 # DQL (Data Query Language)
-- in SQL is used to retrieve data from the database.
+- DQL in SQL is used to retrieve data from the database.
 
 ## SELECT (View/retrieve data)
 Used to query (fetch/view) data from a table.
