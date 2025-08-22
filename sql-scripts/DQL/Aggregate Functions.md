@@ -19,16 +19,16 @@ used with aggregation:
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 
-### 1.SUM() → Adds up numeric values
+## 1.SUM() → Adds up numeric values
 <img width="664" height="352" alt="image" src="https://github.com/user-attachments/assets/d1b2936e-eaef-4319-a988-f9d8e556796c" />
 
-### COUNT() → Counts the number of rows
+## COUNT() → Counts the number of rows
 <img width="907" height="361" alt="image" src="https://github.com/user-attachments/assets/e70325c5-3f5c-4759-a206-b68825dec2ba" />
 
-### HAVING
+## HAVING
 <img width="658" height="326" alt="image" src="https://github.com/user-attachments/assets/5074585a-b165-4d61-a6a0-023633b82077" />
 
-### WHERE 
+## WHERE 
 <img width="719" height="370" alt="image" src="https://github.com/user-attachments/assets/262bef9e-4d98-46ae-8502-14ce54e03876" />
 
 | Feature                | **WHERE**                                                | **HAVING**                                                    |
@@ -39,7 +39,7 @@ used with aggregation:
 | **Execution order**    | Applied **first**, then grouping happens.                | Applied **after grouping** and aggregation.                   |
 
 
-### DISTINCT 
+## DISTINCT 
 <img width="652" height="281" alt="image" src="https://github.com/user-attachments/assets/923468da-9386-46cc-a774-4bb984cf17e1" />
 
 
