@@ -5,14 +5,46 @@
 - Changes made by DML can be rolled back (undo) or committed (save permanently).
 
 ## 1. INSERT (Add new data (rows))
+```
+CREATE TABLE department (
+    dept_id INT PRIMARY KEY,
+    dept_name VARCHAR(100),
+    location VARCHAR(100),
+    manager_id INT
+
+describe department;
+);
+```
 <img width="898" height="517" alt="image" src="https://github.com/user-attachments/assets/024c8a51-ac40-44e7-a2b4-d0be0c728433" />
 
+```
+INSERT INTO department (dept_id,dept_name, location, manager_id)
+VALUES
+(1,'IT', 'Pune', NULL),
+(2,'CS', 'Mumbai', NULL);
+
+SELECT * FROM department;
+```
 <img width="1296" height="453" alt="image" src="https://github.com/user-attachments/assets/1ea0eb47-c6d1-471c-9689-102fa171357b" />
 
+
 ## 2. UPDATE (Change existing data)
+```
+UPDATE department
+SET dept_name = 'ECE'
+WHERE dept_id = 2;
+
+SELECT * FROM department;
+```
 <img width="1046" height="419" alt="image" src="https://github.com/user-attachments/assets/f7928046-add4-427d-91a9-b3462c1eac6c" />
 
 ## 3. DELETE (Remove data)
+```
+DELETE FROM department
+WHERE dept_id = 2;
+
+SELECT * FROM department;
+```
 <img width="941" height="338" alt="image" src="https://github.com/user-attachments/assets/6290b933-94bc-4a80-a97b-22a123800e10" />
 
 
