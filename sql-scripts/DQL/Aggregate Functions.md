@@ -42,4 +42,12 @@ used with aggregation:
 ## DISTINCT 
 <img width="652" height="281" alt="image" src="https://github.com/user-attachments/assets/923468da-9386-46cc-a774-4bb984cf17e1" />
 
+## LIMIT (TOP)
+<img width="800" height="274" alt="image" src="https://github.com/user-attachments/assets/1d7dc4ca-e471-460d-b0e9-2d789b950a93" />
+<img width="772" height="338" alt="image" src="https://github.com/user-attachments/assets/09ca6e8e-21ed-4787-814d-6c5dd08dd668" />
+
+<img width="776" height="425" alt="image" src="https://github.com/user-attachments/assets/79b92212-7154-4fee-84fa-f8e9a68a1aa3" />
+
+
+
 
