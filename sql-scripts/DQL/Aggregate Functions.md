@@ -17,6 +17,9 @@ used with aggregation:
 - ORDER BY → sorts the result
 - MAX() → largest value
 
+  <img width="1627" height="1023" alt="image" src="https://github.com/user-attachments/assets/e058a32a-15ec-4d3c-8eee-9e2d63d6d9ba" />
+
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 1.SUM() → Adds up numeric values
