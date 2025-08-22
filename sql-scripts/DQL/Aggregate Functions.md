@@ -24,3 +24,7 @@ used with aggregation:
 
 ### COUNT() → Counts the number of rows
 <img width="907" height="361" alt="image" src="https://github.com/user-attachments/assets/e70325c5-3f5c-4759-a206-b68825dec2ba" />
+
+### HAVING
+<img width="631" height="328" alt="image" src="https://github.com/user-attachments/assets/a1d4e64e-16cd-44e2-ab2d-5a43c1532083" />
+
