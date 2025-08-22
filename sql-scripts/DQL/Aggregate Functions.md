@@ -26,5 +26,20 @@ used with aggregation:
 <img width="907" height="361" alt="image" src="https://github.com/user-attachments/assets/e70325c5-3f5c-4759-a206-b68825dec2ba" />
 
 ### HAVING
-<img width="631" height="328" alt="image" src="https://github.com/user-attachments/assets/a1d4e64e-16cd-44e2-ab2d-5a43c1532083" />
+<img width="658" height="326" alt="image" src="https://github.com/user-attachments/assets/5074585a-b165-4d61-a6a0-023633b82077" />
+
+### WHERE 
+<img width="719" height="370" alt="image" src="https://github.com/user-attachments/assets/262bef9e-4d98-46ae-8502-14ce54e03876" />
+
+| Feature                | **WHERE**                                                | **HAVING**                                                    |
+| ---------------------- | -------------------------------------------------------- | ------------------------------------------------------------- |
+| **Use case**           | Filters rows **before** grouping/aggregation.            | Filters groups (results of aggregation) **after** `GROUP BY`. |
+| **Works on**           | Individual rows (non-aggregated data).                   | Aggregated data (like `SUM`, `COUNT`, `AVG`, etc.).           |
+| **Can use aggregate?** | ❌ Cannot use aggregate functions (`SUM`, `COUNT`, etc.). | ✅ Can use aggregate functions.                                |
+| **Execution order**    | Applied **first**, then grouping happens.                | Applied **after grouping** and aggregation.                   |
+
+
+### DISTINCT 
+<img width="652" height="281" alt="image" src="https://github.com/user-attachments/assets/923468da-9386-46cc-a774-4bb984cf17e1" />
+
 
