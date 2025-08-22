@@ -34,17 +34,6 @@ DESCRIBE employee;
 <img width="1183" height="908" alt="image" src="https://github.com/user-attachments/assets/6f9a7493-dc3b-4774-b0d4-4b1198662407" />
 
 ```
-ALTER TABLE employee RENAME TO staff;
-DESCRIBE employee;
-
-TRUNCATE TABLE employee;
-DESCRIBE employee;
-
-DROP TABLE employee;
-DESCRIBE employee;
-
-DROP DATABASE company_db;
-USE company_db;
 ALTER TABLE employee CHANGE COLUMN department dept_name VARCHAR(30);
 DESCRIBE employee;
 
@@ -54,6 +43,8 @@ DESCRIBE employee;
 <img width="1138" height="901" alt="image" src="https://github.com/user-attachments/assets/886becee-69d7-49b3-84f8-44990a4a9062" />
 
 ```
+ALTER TABLE employee RENAME TO staff;
+DESCRIBE employee;
 
 ```
 <img width="1117" height="493" alt="image" src="https://github.com/user-attachments/assets/b95b4907-d17c-4382-9273-3afd07e954d8" />
@@ -65,6 +56,16 @@ Used to delete all rows from a table but keep the table structure.
 Used to delete a database or table permanently.
 ⚠️ Data + structure both are removed.
 
+```
+TRUNCATE TABLE employee;
+DESCRIBE employee;
+
+DROP TABLE employee;
+DESCRIBE employee;
+
+DROP DATABASE company_db;
+USE company_db;
+```
 <img width="1159" height="741" alt="image" src="https://github.com/user-attachments/assets/cde8bd00-bb68-4254-9068-715e955240e7" />
 
 
