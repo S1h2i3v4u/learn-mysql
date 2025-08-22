@@ -33,12 +33,37 @@ ORDER BY department;
 <img width="664" height="352" alt="image" src="https://github.com/user-attachments/assets/d1b2936e-eaef-4319-a988-f9d8e556796c" />
 
 ## COUNT() → Counts the number of rows
+```
+SELECT department,
+       SUM(salary) AS total_salary,
+       COUNT(emp_id) AS Total_employee
+FROM employee
+GROUP BY department;
+
+```
 <img width="907" height="361" alt="image" src="https://github.com/user-attachments/assets/e70325c5-3f5c-4759-a206-b68825dec2ba" />
 
 ## HAVING
+```
+SELECT department,
+       SUM(salary) AS total_salary
+FROM employee
+GROUP BY department
+HAVING SUM(salary) > 50000;
+
+```
 <img width="658" height="326" alt="image" src="https://github.com/user-attachments/assets/5074585a-b165-4d61-a6a0-023633b82077" />
 
 ## WHERE 
+```
+SELECT department,
+       SUM(salary) AS total_salary
+FROM employee
+WHERE salary > 20000
+GROUP BY department
+HAVING SUM(salary) > 50000;
+
+```
 <img width="719" height="370" alt="image" src="https://github.com/user-attachments/assets/262bef9e-4d98-46ae-8502-14ce54e03876" />
 
 | Feature                | **WHERE**                                                | **HAVING**                                                    |
@@ -50,12 +75,55 @@ ORDER BY department;
 
 
 ## DISTINCT 
+```
+SELECT DISTINCT department
+FROM employee;
+```
 <img width="652" height="281" alt="image" src="https://github.com/user-attachments/assets/923468da-9386-46cc-a774-4bb984cf17e1" />
 
 ## LIMIT (TOP)
+```
+SELECT *
+FROM employee
+LIMIT 3;
+
+```
 <img width="800" height="274" alt="image" src="https://github.com/user-attachments/assets/1d7dc4ca-e471-460d-b0e9-2d789b950a93" />
+
+```
+SELECT *
+FROM employee
+ORDER BY salary DESC
+LIMIT 3;
+
+```
 <img width="772" height="338" alt="image" src="https://github.com/user-attachments/assets/09ca6e8e-21ed-4787-814d-6c5dd08dd668" />
 
+
+```
+SELECT department,
+       SUM(salary) AS total_salary
+FROM employee
+WHERE department IN ('IT', 'CS')
+GROUP BY department
+HAVING SUM(salary) > 40000
+ORDER BY total_salary DESC
+LIMIT 3;
+
+```
+<img width="906" height="458" alt="image" src="https://github.com/user-attachments/assets/967c0014-c34c-4232-aafa-5b4d2f87501b" />
+
+```
+SELECT department,
+       SUM(salary) AS total_salary
+FROM employee
+WHERE salary > 20000
+GROUP BY department
+HAVING SUM(salary) > 50000
+ORDER BY total_salary DESC
+LIMIT 3;
+
+```
 <img width="776" height="425" alt="image" src="https://github.com/user-attachments/assets/79b92212-7154-4fee-84fa-f8e9a68a1aa3" />
 
 
