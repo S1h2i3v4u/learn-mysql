@@ -13,4 +13,5 @@ Used to query (fetch/view) data from a table.
 <img width="685" height="352" alt="image" src="https://github.com/user-attachments/assets/7caee059-f9e4-431d-a5a0-817603f7711f" />
 
 
+<img width="889" height="494" alt="image" src="https://github.com/user-attachments/assets/5b47116c-a642-4de2-ab02-64406f04fcfe" />
 
