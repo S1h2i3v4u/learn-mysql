@@ -57,11 +57,11 @@ Used to delete a database or table permanently.
 ⚠️ Data + structure both are removed.
 
 ```
-TRUNCATE TABLE employee;
-DESCRIBE employee;
+TRUNCATE TABLE staff;
+DESCRIBE staff;
 
-DROP TABLE employee;
-DESCRIBE employee;
+DROP TABLE staff;
+DESCRIBE staff;
 
 DROP DATABASE company_db;
 USE company_db;
